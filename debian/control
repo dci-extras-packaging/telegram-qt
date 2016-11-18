@@ -6,10 +6,10 @@ Standards-Version: 3.9.8
 Section: libs
 Homepage: https://github.com/Kaffeine/telegram-qt
 
-Package: libtelegram-qt-dev
+Package: libtelegram-qt5-dev
 Section: libdevel
 Architecture: any
-Depends: libtelegram-qt (= ${binary:Version}), ${misc:Depends}
+Depends: libtelegram-qt5-0 (= ${binary:Version}), ${misc:Depends}
 Description: library for Telegram network - development headers
  Qt5-based library for Telegram network
  .
