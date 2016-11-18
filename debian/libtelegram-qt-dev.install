@@ -1,0 +1,3 @@
+usr/lib/*/libtelegram-qt5.so
+usr/include/*
+usr/lib/*/cmake/TelegramQt5/

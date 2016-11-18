@@ -1,0 +1,22 @@
+Source: telegram-qt
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 9), qtbase5-dev, libssl-dev, zlib1g-dev
+Standards-Version: 3.9.8
+Section: libs
+Homepage: https://github.com/Kaffeine/telegram-qt
+
+Package: libtelegram-qt-dev
+Section: libdevel
+Architecture: any
+Depends: libtelegram-qt (= ${binary:Version}), ${misc:Depends}
+Description: library for Telegram network - development headers
+ Qt5-based library for Telegram network
+ .
+ This package contains the development headers for the libtelegram-qt5-0 package
+
+Package: libtelegram-qt5-0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library for Telegram network
+ Qt5-based library for Telegram network
